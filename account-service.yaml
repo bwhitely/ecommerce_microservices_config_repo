@@ -31,4 +31,5 @@ management:
       exposure:
         include: refresh,health
 api:
-  auth: http://AUTH-SERVICE/api/user
+  auth: http://AUTH-SERVICE/api
+  message: hello
